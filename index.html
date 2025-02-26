@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Kavinga Aluvihare - Business Analyst Portfolio">
+    <meta name="author" content="Kavinga Aluvihare">
+    <title>Kavinga Aluvihare</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Meyawo main styles -->
+    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <style>
+        /* Custom styles to enhance the template */
+        :root {
+            --primary-color: #4e73df;
+            --secondary-color: #1cc88a;
+        }
+        
+        .header {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/imgs/header-bg.jpg');
+            background-size: cover;
+        }
+        
+        .about-img {
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .skill-bar {
+            height: 10px;
+            border-radius: 5px;
+            background: #e9ecef;
+            margin-bottom: 20px;
+        }
+        
+        .skill-progress {
+            height: 100%;
+            border-radius: 5px;
+            background: var(--primary-color);
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding-bottom: 30px;
+            border-left: 2px solid var(--primary-color);
+            padding-left: 20px;
+        }
+        
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--primary-color);
+        }
+        
+        .timeline-item:last-child {
+            border-left: none;
+        }
+        
+        .timeline-title {
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        
+        .timeline-subtitle {
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="#">Kavinga Aluvihare</a>
+            <ul class="nav">
+                <li class="item">
+                    <a class="link" href="#home">Home</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#about">About</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#skills">Skills</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#experience">Experience</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#education">Education</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#contact">Contact</a>
+                </li>
+                <li class="item ml-md-3">
+                    <a href="mailto:kavingaaluwihare2001@gmail.com" class="btn btn-primary">Hire Me</a>
+                </li>
+            </ul>
+            <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </a>
+        </div>
+    </nav><!-- End of Page Navbar -->
+
+    <!-- page header -->
+    <header id="home" class="header">
+        <div class="overlay"></div>
+        <div class="header-content container">
+            <h1 class="header-title">
+                <span class="up">Hello!</span>
+                <span class="down">I am Kavinga Aluvihare</span>
+            </h1>
+
+            
+            <br/>
+            
+            <a href="https://www.linkedin.com/in/kavinga-aluvihare-85032a281/" class="btn btn-primary">View My LinkedIn Profile</a>
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- about section -->
+    <section class="section pt-0" id="about">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- about wrapper -->
+            <div class="about">
+                <div class="about-img-holder">
+                    <img src="assets/imgs/man.png" class="about-img" alt="Kavinga Aluvihare">
+                </div>
+                <div class="about-caption">
+                    <p class="section-subtitle">Who Am I?</p>
+                    <h2 class="section-title mb-3">About Me</h2>
+                    <p>
+                        Hard-working university student with a motivated attitude and a variety of power skills. Adept in various social media platforms and office technology programs. I am a mature team worker and adaptable to all challenging situations and able to work well both in a team environment as well as using my own initiative.
+                    </p>
+                    <p>
+                        Currently working as a Business Analyst at Deloitte, I bridge creativity and technology to develop impactful solutions. My expertise combines business insights with technical knowledge, enabling me to analyze complex problems and propose effective solutions.
+                    </p>
+                    <a href="#" class="btn-rounded btn btn-outline-primary mt-4">Download CV</a>
+                </div>
+            </div><!-- end of about wrapper -->
+        </div><!-- end of container -->
+    </section> <!-- end of about section -->
+
+    <!-- skills section -->
+    <section class="section" id="skills">
+        <div class="container text-center">
+            <p class="section-subtitle">What I'm Good At?</p>
+            <h6 class="section-title mb-6">My Skills</h6>
+            <!-- row -->
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/pencil-case.svg" alt="Project Management" class="icon">
+                            <h6 class="title">Oracle</h6>
+                            <p class="subtitle">Skilled in working with Oracle object-relational databases.</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/responsive.svg" alt="Business Analysis" class="icon">
+                            <h6 class="title">Data Extraction</h6>
+                            <p class="subtitle">Skilled in extracting and analyzing data from SQL relational databases, ensuring data accuracy and integrity to support business decision-making.</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/toolbox.svg" alt="Testing" class="icon">
+                            <h6 class="title">Testing</h6>
+                            <p class="subtitle">Proficient in various testing methodologies to ensure product quality and functionality meets specifications and user requirements.</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/analytics.svg" alt="MERN Stack" class="icon">
+                            <h6 class="title">MERN Stack</h6>
+                            <p class="subtitle">Certified in MERN (MongoDB, Express.js, React, Node.js) full-stack development for creating modern web applications.</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/scooter.svg" alt="Social Media Management" class="icon">
+                            <h6 class="title">Social Media</h6>
+                            <p class="subtitle">Experienced in managing social media platforms, creating engaging content, and building meaningful business relationships online.</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-card">
+                        <div class="body">
+                            <img src="assets/imgs/shipped.svg" alt="ClickUp" class="icon">
+                            <h6 class="title">ClickUp & Azure DevOps & Jira</h6>
+                            <p class="subtitle">Certified in Project management tools for effective project management, task tracking, and team collaboration to boost productivity.</p>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of row -->
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Languages</h5>
+                            <div>
+                                <h6>English</h6>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                                <p class="text-muted">Professional Working Proficiency</p>
+                            </div>
+                            <div>
+                                <h6>Sinhalese</h6>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 100%;"></div>
+                                </div>
+                                <p class="text-muted">Native or Bilingual Proficiency</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title mb-4">Certifications</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">The MERN Fullstack Guide</li>
+                                <li class="list-group-item">Social Media Business Relationships</li>
+                                <li class="list-group-item">Focus on Privacy</li>
+                                <li class="list-group-item">ClickUp Essential Training</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- end of skills section -->
+
+    <!-- experience section -->
+    <section class="section" id="experience">
+        <div class="container text-center">
+            <p class="section-subtitle">Where I've Worked</p>
+            <h6 class="section-title mb-6">Work Experience</h6>
+            
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">Business Analyst Intern</h4>
+                            <h6 class="timeline-subtitle">Deloitte, Colombo, Western Province, Sri Lanka</h6>
+                            <p class="timeline-date">Prior Experience</p>
+                            <p>
+                                Assisted senior business analysts in gathering requirements and documenting processes. Extracted and analyzed data based on business needs, ensuring accuracy and relevance. Conducted UAT testing for new developments, identifying issues and providing feedback to enhance system performance.contributing insights and supporting the successful delivery of project objectives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- end of experience section -->
+
+    <!-- education section -->
+    <section class="section" id="education">
+        <div class="container text-center">
+            <p class="section-subtitle">My Educational Background</p>
+            <h6 class="section-title mb-6">Education</h6>
+            
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">BSc (HONS) in Information Technology</h4>
+                            <h6 class="timeline-subtitle">SLIIT</h6>
+                            <p class="timeline-date">June 2022 - June 2026 (Expected)</p>
+                            <p>
+                                Currently pursuing a Bachelor's degree in Information Technology, 
+                                focusing on developing comprehensive technical knowledge and practical skills 
+                                relevant to the IT industry.
+                            </p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4 class="timeline-title">Business/Commerce(Advanced Level)</h4>
+                            <h6 class="timeline-subtitle">Trinity College Kandy</h6>
+                            <p>
+                                Completed Advanced Level education with a focus on Business and Commerce, 
+                                establishing a strong foundation in business principles and commercial practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- end of education section -->
+
+    <!-- portfolio section -->
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="section-subtitle">What I've Done</p>
+            <h6 class="section-title mb-6">My Portfolio</h6>
+            <!-- row -->
+           
+            <a href="https://github.com/Kavinga17" class="btn btn-primary" 
+   style="background-color: #333; color: white; padding: 12px 20px; border-radius: 8px; 
+          font-size: 16px; text-decoration: none; font-weight: bold; 
+          display: inline-block; transition: 0.3s;">
+    🚀 View My GitHub Profile
+</a>
+
+        </div><!-- end of container -->
+    </section> <!-- end of portfolio section -->
+
+    <!-- section -->
+    <section class="section-sm bg-primary">
+        <!-- container -->
+        <div class="container text-center text-sm-left">
+            <!-- row -->
+            <div class="row align-items-center">
+                <div class="col-sm offset-md-1 mb-4 mb-md-0">
+                    <h6 class="title text-light">Want to work with me?</h6>
+                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
+                </div>
+                <div class="col-sm offset-sm-2 offset-md-3">
+                    <a href="mailto:kavingaaluvihare2001@gmail.com" class="btn btn-lg my-font btn-light rounded">Hire Me</a>
+                </div>
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </section> <!-- end of section -->
+
+    <!-- contact section -->
+    <section class="section" id="contact">
+        <div class="container text-center">
+            <p class="section-subtitle">How can you communicate?</p>
+            <h6 class="section-title mb-5">Contact Me</h6>
+            
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="ti-email icon-lg mb-3"></i>
+                            <h5>Email</h5>
+                            <p>kavingaaluvihare2001@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="ti-linkedin icon-lg mb-3"></i>
+                            <h5>LinkedIn</h5>
+                            <p>www.linkedin.com/in/kavinga-aluvihare-85032a281</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <i class="ti-location-pin icon-lg mb-3"></i>
+                            <h5>Location</h5>
+                            <p>Kandy, Central Province, Sri Lanka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- contact form -->
+            <form action="" class="contact-form col-md-10 col-lg-8 m-auto mt-5">
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <input type="email" class="form-control" placeholder="Enter Email" required>
+                    </div>
+                    <div class="form-group col-sm-12">
+                        <textarea name="comment" id="comment" rows="6" class="form-control" placeholder="Write Something"></textarea>
+                    </div>
+                    <div class="form-group col-sm-12 mt-3">
+                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                    </div>
+                </div>
+            </form><!-- end of contact form -->
+        </div><!-- end of container -->
+    </section><!-- end of contact section -->
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">Copyright
+                <script>document.write(new Date().getFullYear())</script> &copy; Kavinga Aluvihare
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/kavinga-aluvihare-85032a281" class="link"><i class="ti-linkedin"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+                <a href="mailto:kavingaaluwihare2001@gmail.com" class="link"><i class="ti-email"></i></a>
+            </div>
+        </footer>
+    </div> <!-- end of page footer -->
+
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/meyawo.js"></script>
+
+</body>
+
+</html>
